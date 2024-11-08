@@ -1,1 +1,6 @@
-"module.exports = { theme: 'dark', itemsPerPage: 10 };" 
+module.exports = {
+    theme: 'dark',                  
+    databaseURL: 'http://localhost:27017', 
+    allowAssignment: true,          
+    itemsPerPage: 10                
+};
